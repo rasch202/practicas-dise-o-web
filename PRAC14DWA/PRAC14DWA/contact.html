@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Contactos</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row flex-nowrap">
+            <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+                <div
+                    class="d-flex flex-column align-items-center align-items-center-start px-3 pt-2 text-white min-vh-100">
+                    <a href="/"
+                        class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5 d-none d-sm-inline">Menu</span>
+                    </a>
+
+                    <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                        id="menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link align-middle px-0 text-white">
+                                <i class="fs-4 bi bi-house"></i>
+                                <span class="ms-1 d-none d-sm-inline">Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link align-middle px-0 text-white active-page">
+                                <i class="fs-4 bi bi-person"></i>
+                                <span class="ms-1 d-none d-sm-inline">Contacto</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="gallery.html" class="nav-link align-middle px-0 text-white">
+                                <i class="fs-4 bi bi-collection"></i>
+                                <span class="ms-1 d-none d-sm-inline">Gallery</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="projects.html" class="nav-link align-middle px-0 text-white">
+                                <i class="fs-4 bi bi-github"></i>
+                                <span class="ms-1 d-none d-sm-inline">Proyectos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col py-3">
+                <h5>Contactos</h5>
+                <div class="row">
+                    <div class="col col-lg-6 col-sm-12 mb-2">
+                        <div class="alert alert-dark">
+                            <h6>Esta interesado en mi perfil</h6>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, tempore enim? Rerum
+                                voluptas quis deserunt dignissimos amet suscipit, reiciendis dolorem tempore rem! Eum
+                                quia accusamus reprehenderit consequuntur blanditiis ab odit!
+                            </p>
+                        </div>
+                        <div class="row p-3">
+                        <div class="col-lg-6 col-sm-12 text-center mb-2">
+                            <div class="border rounded">
+                                <i class="bi bi-whatsapp redes text-success"></i>
+                                <p class="text-sm">Whatsapp</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-center mb-2">
+                            <div class="border rounded">
+                                <i class="bi bi-facebook redes text-primary"></i>
+                            <p class="text-sm">Facebook</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-center mb-2">
+                            <div class="border rounded">
+                                <i class="bi bi-telegram redes text-primary"></i>
+                            <p class="text-sm">Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 text-center mb-2">
+                            <div class="border rounded">
+                                <i class="bi bi-youtube redes text-danger"></i>
+                            <p class="text-sm">Youtube</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col col-lg-6 col-sm-12 mb-2">
+                        <form action="">
+                            <div class="card">
+                                <div class="card-header bg-dark text-white">
+                                    <i class="bi bi-chat-square-dots-fill"></i>Contacto
+                                </div>
+                                <div class="card-body">
+                                    <div class="mb-2">
+                                        <label class="form-label fw-bold" for="nombre">Nombre</label>
+                                        <input placeholder="Ingresa tu nombre" type="text" name="nombre" class="form-control">
+                                    </div>
+                                    <div class="mb-2">
+                                        <label class="form-label fw-bold" for="nombre">Email</label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">
+                                                <i class="bi bi-at"></i>
+                                            </span>
+                                        <input placeholder="Ingresa tu correo electronico" type="email" name="email" class="form-control">
+                                    </div>
+                                </div>
+                                    <div class="mb-2">
+                                        <label for="genero" class="form-label fw-bold">Genero</label>
+                                        <select name="genero" class="form-control">
+                                            <option value="1">Masculino</option>
+                                            <option value="2">Femenino</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-2">
+                                        <label for="comentario" class="form-label fw-bold">Comentario</label>
+                                        <textarea name="comentario" class="form-control" rows="5" placeholder="Ingresa tu comentario..."></textarea>
+                                    </div>
+                                    <div class="mb-2">
+                                        <label for="terminos" class="form-label fw-bold">Terminos y condiciones</label>
+                                        <div>
+                                            <input type="checkbox" class="form-check-input" value="1" required>
+                                            Acepto todos los terminos y condiciones
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <button type="submit" class="btn btn-dark">
+                                        <i class="bi bi-send"></i>Enviar mensaje
+                                    </button>
+                                    <button type="reset" class="btn btn-secondary">
+                                        <i class="bi bi-backspace-fill"></i>Cancelar
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

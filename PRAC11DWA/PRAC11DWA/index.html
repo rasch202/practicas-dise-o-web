@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Practica 11</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">
+                <i class="fa-solid fa-layer-group text-white"></i>
+            </a>
+            <button type="button" class="navbar-toggler border-white" data-bs-toggle="collapse" data-bs-target="#menu-toggle" aria-controls="menu-toggle" aria-expanded="false" aria-label="Menu desplegable"> 
+            <i class="fa fa-bars text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-toggle">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                           <i class="fa fa-home"></i> Inicio
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle text-white" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fa fa-folder"></i>Mis proyectos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                   <i class="fa-solid fa-database text-warning"></i> Base de datos</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                   <i class="fa-brands fa-react text-primary"></i>Aplicaciones web</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                   <i class="fa-brands fa-android text-success"></i>Android</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-white">
+                         <i class="fa-solid fa-comment"></i>   Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <h2 class="text-center bg-secondary mt-2 p-4 rounded text-white">Mis proyectos</h2>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card">
+                <div class="card-header">
+                    Proyectos web
+                </div>
+                <div class="card-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis numquam, tempora sequi vitae nobis temporibus beatae sint ad tempore saepe, nulla blanditiis, iusto dolor id consequuntur dignissimos ex illum ipsum.
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary w-100">
+                        Ver proyecto
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
